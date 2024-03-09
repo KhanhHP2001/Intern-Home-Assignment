@@ -1,0 +1,19 @@
+.custom-button {
+    color: #E58411;
+    border: none;
+    padding: 0; 
+    cursor: pointer; 
+    display: inline-flex; 
+    align-items: center; 
+    vertical-align: middle;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(253, 250, 250);
+  }
+  .text-xl {
+    font-size: 1.5rem; 
+  }
+.text-sub{
+    font-size: 15px
+}
