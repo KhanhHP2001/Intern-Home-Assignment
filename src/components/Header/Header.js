@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-
 import { FiShoppingBag, FiChevronDown } from "react-icons/fi";
 import { navigation } from "../../data";
+import "./Header.css"; // Import CSS file
 
 const Header = () => {
   const [bg, setBg] = useState(false);

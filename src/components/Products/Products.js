@@ -69,7 +69,7 @@ const Products = () => {
             <HiMiniArrowLongLeft className="arrow-icon" />
           </button>
           {pages.productList.map((product, idx) => (
-            <div className="product-box col-span-1 p-[12px]" key={idx}>
+            <div className="product-box col-span-1 pt-20" key={idx}>
               <>
                 <div className="product-image">
                   <img src={product.image.type} alt={product.name} />

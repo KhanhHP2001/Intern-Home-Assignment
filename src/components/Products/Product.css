@@ -120,3 +120,37 @@
   .arrow-icon {
     font-size: 20px;
   }
+/* Ví dụ về media query cho màn hình di động */
+@media only screen and (max-width: 767px) {
+
+.product-box {
+  width: 100%;
+  height: auto; 
+  background-color: #ffffff;
+  border-radius: 25px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.product-image img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-details {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.product-footer {
+  position: relative;
+  width: 90%;
+  margin-top: 10px; 
+}
+}

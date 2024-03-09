@@ -1,0 +1,34 @@
+/* Footer.css */
+
+/* Thiết lập các quy tắc CSS cho thiết bị di động */
+@media only screen and (max-width: 767px) {
+    .container {
+      padding-left: 20px; /* Thêm padding trái cho container */
+      padding-right: 20px; /* Thêm padding phải cho container */
+    }
+  
+    .footer-column {
+      width: 100%; /* Đảm bảo rằng cột footer chiếm toàn bộ chiều rộng trên thiết bị di động */
+      margin-bottom: 20px; /* Tăng khoảng cách giữa các cột */
+    }
+  
+    .footer-social {
+      display: flex; /* Hiển thị các phần tử social theo hướng ngang */
+      flex-wrap: wrap; /* Cho phép các phần tử social xuống dòng khi không đủ không gian */
+      justify-content: center; /* Canh giữa các phần tử social */
+    }
+    
+    .footer-social a {
+      margin-right: 10px; /* Khoảng cách giữa các biểu tượng social */
+      font-size: 25px; /* Kích thước biểu tượng social */
+    }
+  
+    .footer-social p {
+      font-size: 14px; /* Kích thước văn bản cho tên mạng xã hội */
+    }
+  
+    .footer-info {
+      text-align: center; /* Căn giữa nội dung ở phần thông tin bản quyền */
+    }
+  }
+  
